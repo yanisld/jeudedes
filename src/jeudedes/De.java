@@ -3,6 +3,9 @@ package jeudedes;
 public class De {
     private int valeur;
 
+    /**
+     * Constructeur de la classe Dé
+     */
     public De(){ this.valeur = 0; }
 
     /**

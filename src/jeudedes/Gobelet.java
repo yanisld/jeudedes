@@ -7,6 +7,10 @@ public class Gobelet {
     private int valeur;
     private List<De> des = new ArrayList<>();
 
+    /**
+     * Constructeur de la classe gobelet
+     * @param nb_des liste de dés pour un gobelet
+     */
     public Gobelet(List<De> nb_des){
         this.valeur = 0;
         this.des = nb_des;
