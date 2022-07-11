@@ -34,7 +34,7 @@ public class Joueur {
      * @param gobelet gobelet actuellement joué
      */
     public void jouer(Gobelet gobelet){
-        this.score = gobelet.lancer();
+        this.score += gobelet.lancer();
     }
 
     /**

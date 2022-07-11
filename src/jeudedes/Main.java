@@ -17,13 +17,9 @@ public class Main {
         // Création de d'un objet gobelet et ajout de la liste de dés en argument
         Gobelet gob = new Gobelet(nbDes);
 
-        // Création d'un joueur
-        Joueur joueur1 = new Joueur("Yanis");
-
-        // Joueur lance le gobelet
-        joueur1.jouer(gob);
-
-        // Afficher score
-        joueur1.afficher_score();
+        // Création et lancement de la partie
+        Partie partie = new Partie(3, gob);
+        partie.lancer();
+        partie.afficher_gagnant();
     }
 }
